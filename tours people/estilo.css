@@ -1,0 +1,50 @@
+.header {
+ font-weight: bold;
+ background-color: black;
+ color: white;
+ padding: 80px;
+ margin: 100px;
+     
+}
+
+.footer {
+ text-align: right;
+ font-size: 12px;
+ margin-top: 30px;
+ background-color: black;
+ color: white;
+ padding: 10px;
+}
+
+.nav-link {
+ margin-right: 20px;
+}
+.profile-img {
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+ margin-right: 10px;
+}
+    
+.profile-circle {
+ display: inline-block;
+ width: 40px;
+ height: 40px;
+ line-height: 40px;     
+ text-align: center;
+ border-radius: 50%;
+ background-color: white;
+}
+
+.navbar-brand-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-brand-container .profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}

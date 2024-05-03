@@ -1,6 +1,6 @@
 .datos {
-    width: 600px;
-    height: 700px;
+    width: 700px;
+    height: 800px;
     margin: 100px auto;
     background-color: rgb(174, 221, 236);
     background-image: url(./img/vix.png);
@@ -17,9 +17,9 @@
 
 
 .datos img {
-    width: 500px;
-    height: 500px; 
-    left: 50%;
+    width: 600px;
+    height: 600px; 
+    left: 60%;
     margin-right: 900px;
     object-fit: cover;
     position: absolute;
@@ -30,4 +30,11 @@
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 2.0);
 
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
 }
