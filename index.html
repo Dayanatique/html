@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Reloj</title>
+</head>
+<body>
+  <div class="clock">
+    <div class="digital-clock" id="digitalClock"></div>
+    <div class="analog-clock">
+      <div class="hour-hand" id="hourHand"></div>
+      <div class="minute-hand" id="minuteHand"></div>
+      <div class="second-hand" id="secondHand"></div>
+      <div class="center-circle"></div>
+
+    </div>
+    <input type="text" id="timeInput" placeholder="Ingrese la hora">
+    <button onclick="setTime()">Establecer Hora</button>
+    <button id="updateButton">pausar</button>
+    <button id="resumeButton">Reanudar Reloj</button>
+    <div id="saludo"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
